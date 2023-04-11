@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watchAll",
+    "ci:test": "jest",
     "cypress": "cypress open",
-    "ci:test": "jest --runInBand"
-
+    "cypress:headless": "cypress run"
   },
   "dependencies": {
     "eslint": "8.38.0",
